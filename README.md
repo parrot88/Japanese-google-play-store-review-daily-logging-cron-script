@@ -10,11 +10,11 @@ Sorry for English developer.
 > googlePlayURL = "https://play.google.com/store/apps/details?id=com.hoge.hoge&hl=ja"
 
 2. set cron and give permission +x into 'do.py'
-If you wanna check review at every pm 10, edit cron.
+If you wanna check review at every pm 10, edit cron.  
 Please edit as below...  
 > 0 22 * * * python3 /your/project/path/do.py >> /your/log/path/log.txt  
 
-And don't forget add permission +x to 'do.py'.
+And don't forget add permission +x to 'do.py'.  
 
 4. check result at 'log.txt'  
 for example: 
