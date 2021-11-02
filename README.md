@@ -12,7 +12,8 @@ Sorry for English developer.
 2. set cron and give permission +x into 'do.py'
 If you wanna check review at every pm 10, edit cron.
 Please edit as below...  
-> 0 22 * * * python3 /your/project/path/do.py >> /your/log/path/log.txt
+> 0 22 * * * python3 /your/project/path/do.py >> /your/log/path/log.txt  
+
 And don't forget add permission +x to 'do.py'.
 
 4. check result at 'log.txt'  
@@ -25,6 +26,6 @@ for example:
 Log format is ... date, review score, review average score
 
 ## By the way...
-I used this script at my Raspberry Pi zero w.
-That is enough spec.
-It worked Python 3.6.5.
+I used this script at my Raspberry Pi zero w.  
+That is enough spec.  
+It worked Python 3.6.5.  
